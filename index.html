@@ -5,7 +5,7 @@
   <body>
     <a-scene>
       <a-entity environment="playArea: 2; preset: forest"></a-entity>
-       <a-entity text-geometry='value: Serrucho; font: #font' material='color: #000'
+       <a-entity text-geometry='value: sierra_electrica; font: #font' material='color: #000'
         position="0.33 0.89 0.848" rotation='0 90 0' scale='0.1 0.1 0.1'></a-entity>
       <a-box position="-1 0.5 -3" rotation="0 45 0" color="#4CC3D9"></a-box>
       <a-sphere position="0 1.25 -5" radius="1.25" color="#EF2D5E"></a-sphere>
@@ -14,6 +14,9 @@
       <a-sky color="#ECECEC"></a-sky>
       <a-entity id="leftHand" hand-tracking-controls="hand: left;"></a-entity>
       <a-entity id="rightHand" hand-tracking-controls="hand: right;"></a-entity>
+      <a-assets>
+           <a-asset-item id="sierra" src="./assets/sierra.glb"></a-asset-item>
+      </a-assets>
     </a-scene>
   </body>
 </html>
